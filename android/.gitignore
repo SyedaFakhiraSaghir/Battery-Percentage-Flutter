@@ -1,14 +1,59 @@
-gradle-wrapper.jar
-/.gradle
-/captures/
-/gradlew
-/gradlew.bat
-/local.properties
-GeneratedPluginRegistrant.java
-.cxx/
+# Create .gitignore
+echo "# Flutter/Dart
+*.iml
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.dart_tool/
+.pub/
+.build/
+packages/
+pubspec.lock
+build/
 
-# Remember to never publicly share your keystore.
-# See https://flutter.dev/to/reference-keystore
-key.properties
-**/*.keystore
-**/*.jks
+# Android
+*.iml
+*.class
+*.log
+*.local.properties
+.idea/
+.gradle/
+build/
+captures/
+gradle_*.html
+local.properties
+
+# iOS
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/.idea/
+**/.sconsign.dblite
+**/.vagrant/
+**/DerivedData/
+**/Pods/
+*.xcuserstate
+**/.symlinks/
+**/profile
+**/xcuserdata/
+.idea/
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+" > .gitignore
+
+# Add and commit .gitignore
+git add .gitignore
+git commit -m "Add .gitignore"
